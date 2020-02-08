@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "ingredients",
+  "info": {
+    "name": "Ingredient"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "arepas": {
+      "via": "ingredients",
+      "collection": "arepa"
+    }
+  }
+}

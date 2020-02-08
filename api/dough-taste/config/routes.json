@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dough-tastes",
+      "handler": "dough-taste.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dough-tastes/count",
+      "handler": "dough-taste.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dough-tastes/:id",
+      "handler": "dough-taste.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dough-tastes",
+      "handler": "dough-taste.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dough-tastes/:id",
+      "handler": "dough-taste.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dough-tastes/:id",
+      "handler": "dough-taste.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

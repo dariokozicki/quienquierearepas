@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "cookings",
+  "info": {
+    "name": "Cooking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "arepas": {
+      "via": "cooking",
+      "collection": "arepa"
+    }
+  }
+}

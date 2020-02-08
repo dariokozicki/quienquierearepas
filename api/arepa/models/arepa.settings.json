@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "arepas",
+  "info": {
+    "name": "Arepa"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "ingredients": {
+      "collection": "ingredient",
+      "via": "arepas",
+      "dominant": true
+    },
+    "dough_taste": {
+      "model": "dough-taste",
+      "via": "arepas"
+    },
+    "cooking": {
+      "model": "cooking",
+      "via": "arepas"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

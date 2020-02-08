@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "dough_tastes",
+  "info": {
+    "name": "DoughTaste"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "arepas": {
+      "via": "dough_taste",
+      "collection": "arepa"
+    }
+  }
+}
