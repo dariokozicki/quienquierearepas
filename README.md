@@ -17,4 +17,4 @@ QQA está basada en Strapi y Vue.js, y fue iniciada en el hackathon del 8/2/2020
 
 Documentación de Postman: https://documenter.getpostman.com/view/10250820/SWTHbFJK?version=latest 
 
-
+Colección de Postman: https://www.getpostman.com/collections/f995c41a78bdbbfe22e2
